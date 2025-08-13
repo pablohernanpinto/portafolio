@@ -1,0 +1,29 @@
+.titulo {
+    font-size: 120px;
+    color: aliceblue;
+    font-family: sans-serif;
+    margin-bottom: 0; /* elimina margen inferior */
+    padding-bottom: 0; /* elimina padding inferior si existiera */
+    
+}
+
+.texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.subTexto{
+    font-size: 30px;
+    color: #cda3ff;
+    font-family: sans-serif;
+
+}
+
+.video-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
