@@ -8,12 +8,11 @@
 </head>
 
 <body>
-  <div class="scroll-container" #scrollContainer>
+  <div class="scroll-container" #scrollContainer (scroll)="onScroll()">
     <div class="scroll-item">
       <app-pagina-uno></app-pagina-uno>
-
-      <button class='siguientePB' (click)="scrollNext()">
-        <img class='siguienteP' src="../assets/flecha.png" alt="siguiente pagina">
+      <button class="siguientePB" *ngIf="!isLastSection" (click)="scrollNext()">
+        <img class="siguienteP" src="../assets/flecha.png" alt="siguiente pagina">
       </button>
     </div>
     <div class="scroll-item">
@@ -32,19 +31,12 @@
     </div>
 
     <div class="scroll-item">
-
-
-    </div>
-
-    <div class="scroll-item">
-
+      <app-datos-de-contacto></app-datos-de-contacto>
 
     </div>
 
-    <div class="scroll-item">
 
 
-    </div>
 
   </div>
 

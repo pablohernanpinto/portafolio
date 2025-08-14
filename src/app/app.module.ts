@@ -6,6 +6,7 @@ import { PaginaUnoComponent } from './components/pagina-uno/pagina-uno.component
 import { PaginaProductosComponent } from './components/pagina-productos/pagina-productos.component';
 import { PaginaServiciosComponent } from './components/pagina-servicios/pagina-servicios.component';
 import { AppClimaComponent } from './components/app-clima/app-clima.component';
+import { DatosDeContactoComponent } from './components/datos-de-contacto/datos-de-contacto.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { AppClimaComponent } from './components/app-clima/app-clima.component';
     PaginaUnoComponent,
     PaginaProductosComponent,
     PaginaServiciosComponent,
-    AppClimaComponent
+    AppClimaComponent,
+    DatosDeContactoComponent
   ],
   imports: [
     BrowserModule
