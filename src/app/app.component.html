@@ -11,14 +11,41 @@
   <div class="scroll-container" #scrollContainer>
     <div class="scroll-item">
       <app-pagina-uno></app-pagina-uno>
-      <button (click)="scrollNext()">Siguiente sección</button>
+
+      <button class='siguientePB' (click)="scrollNext()">
+        <img class='siguienteP' src="../assets/flecha.png" alt="siguiente pagina">
+      </button>
     </div>
-    <div class="scroll-item"> <button (click)="scrollNext()">Siguiente sección1</button>
+    <div class="scroll-item">
+      <app-pagina-productos></app-pagina-productos>
+
     </div>
-    <div class="scroll-item"> <button (click)="scrollNext()">Siguiente 2</button>
+
+    <div class="scroll-item">
+      <app-pagina-servicios></app-pagina-servicios>
+
     </div>
-    <div class="scroll-item"> <button (click)="scrollNext()">Siguiente sección3</button>
+
+    <div class="scroll-item">
+      <app-app-clima></app-app-clima>
+
     </div>
+
+    <div class="scroll-item">
+
+
+    </div>
+
+    <div class="scroll-item">
+
+
+    </div>
+
+    <div class="scroll-item">
+
+
+    </div>
+
   </div>
 
 

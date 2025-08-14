@@ -36,3 +36,30 @@ body {
   background-repeat: no-repeat;
   overflow: hidden; /* opcional, para evitar scroll */
 }
+
+.siguientePB{
+    background-color: transparent;
+    border-radius: 100%;
+    border-color: white;
+    border-width: 3px;
+    border-style: solid;
+    display: block;
+    cursor:pointer;
+    animation: cambioColores 1s infinite alternate ;
+    transition: background-color 0.3 ease;
+
+    position: fixed;
+    bottom: 20px;
+}
+
+@keyframes cambioColores {
+    from {background-color: transparent;}
+    to {background-color: grey;}
+    
+}
+
+.siguienteP {
+    width: 60px;
+    height: 60px;
+
+} 
